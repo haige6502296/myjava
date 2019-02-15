@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77360467-454f-4d67-9b71-6078cb2b7f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aaa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,16 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/xmlbean/SayGood.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aaa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -45,8 +33,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -94,22 +95,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -117,15 +103,18 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory&#10;repository" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550249596220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550256087258" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/repo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="C:\Users\amau\AppData\Roaming\npm\node_modules\stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,7 +141,7 @@
       <workItem from="1550247882106" duration="357000" />
       <workItem from="1550248460700" duration="28000" />
       <workItem from="1550248578916" duration="1171000" />
-      <workItem from="1550249840942" duration="280000" />
+      <workItem from="1550249840942" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1550247906315</created>
@@ -189,15 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1550249592930</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="a">
+      <created>1550250127114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550250127114</updated>
+    </task>
+    <task id="LOCAL-00007" summary="a">
+      <created>1550255350772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550255350772</updated>
+    </task>
+    <task id="LOCAL-00008" summary="a">
+      <created>1550255393691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550255393691</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1836000" />
+    <option name="totallyTimeSpent" value="6355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1004" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26008493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,6 +215,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49893844" weight="0.32830188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -214,12 +224,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50106156" side_tool="true" weight="0.32830188" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5042463" side_tool="true" visible="true" weight="0.32830188" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4968153" weight="0.32830188" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.49893844" visible="true" weight="0.32830188" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4957537" visible="true" weight="0.32830188" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49787685" weight="0.32830188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,6 +245,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <option name="LAST_COMMIT_MESSAGE" value="a" />
@@ -244,6 +264,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/HelloSpring/com/lct/MainApp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -257,21 +284,14 @@
     <entry file="file://$PROJECT_DIR$/src/aaa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/HelloSpring/com/lct/MainApp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xmlbean/SayGood.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

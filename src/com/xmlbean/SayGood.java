@@ -1,11 +1,12 @@
 package com.xmlbean;
 
 public class SayGood {
-  private String words;
-  public void setWords(String words){
-    this.words=words;
+  private String word;
+  public void setWord(String word){
+    this.word=word;
   }
   public void getWords(){
-    System.out.println("The Words: "+words);
+
+    System.out.println("Your Words: "+word);
   }
 }

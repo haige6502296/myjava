@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="Always" createEmptyFolders="true" uploadOnCheckin="5c1a25f8-f4b3-4695-aa63-c93b06a4bdce">
     <serverData>
       <paths name="jboss">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="jboss" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

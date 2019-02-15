@@ -6,7 +6,7 @@
         <property name="message" value="Hello Spring!"></property>
     </bean>
     <bean id="a" class="com.xmlbean.SayGood">
-        <property name="word" value="使用XmlBeanFactory容器"></property>
+        <property name="words" value="使用XmlBeanFactory容器"></property>
     </bean>
 
 </beans>

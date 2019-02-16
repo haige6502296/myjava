@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
     <bean id="helloSpring" class="com.lct.HelloSpring">
         <property name="message" value="Hello Spring!"></property>
@@ -8,5 +8,7 @@
     <bean id="a" class="com.xmlbean.SayGood">
         <property name="words" value="使用XmlBeanFactory容器"></property>
     </bean>
-
+<bean id="helloS3" class="com.filesystem.helloSpring3">
+    <property name="msg" value="Hello,Spring3 class"></property>
+</bean>
 </beans>

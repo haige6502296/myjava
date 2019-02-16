@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a28008-835a-4bd6-97dd-929489e16eba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/filesystem/helloSpring3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/filesystem/mainApp3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloSpring.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpring.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HelloSpring.iws" beforeDir="false" afterPath="$PROJECT_DIR$/HelloSpring.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/filesystem/mainApp3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="280">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,52 +158,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlbean" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -215,7 +166,7 @@
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550287201824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550287700736" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -270,7 +221,7 @@
       <workItem from="1550256716849" duration="63000" />
       <workItem from="1550256825178" duration="2252000" />
       <workItem from="1550259098914" duration="1120000" />
-      <workItem from="1550279030666" duration="4049000" />
+      <workItem from="1550279030666" duration="4503000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1550257284768</created>
@@ -321,17 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1550260112454</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="学习使用FileSystemApplicationContext容器（这个容器需要Bean.xml的完整路径）使用方法如下：&#10;ApplicationContext context=new FileSystemXmlApplicationContext(&quot;文件路径+文件名Bean.xml&quot;)&#10;//调用&#10;HelloSpring helloSpring=(HelloSpring)context.getBean(&quot;新对象多名字，随意取&quot;)&#10;helloSpring.getMsg();">
+      <created>1550287636221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550287636221</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7484000" />
+    <option name="totallyTimeSpent" value="7938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2014315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2014315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +297,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,7 +328,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="添加了bbb文件" />
     <MESSAGE value="删除了bbb文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除了bbb文件" />
+    <MESSAGE value="学习使用FileSystemApplicationContext容器（这个容器需要Bean.xml的完整路径）使用方法如下：&#10;ApplicationContext context=new FileSystemXmlApplicationContext(&quot;文件路径+文件名Bean.xml&quot;)&#10;//调用&#10;HelloSpring helloSpring=(HelloSpring)context.getBean(&quot;新对象多名字，随意取&quot;)&#10;helloSpring.getMsg();" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习使用FileSystemApplicationContext容器（这个容器需要Bean.xml的完整路径）使用方法如下：&#10;ApplicationContext context=new FileSystemXmlApplicationContext(&quot;文件路径+文件名Bean.xml&quot;)&#10;//调用&#10;HelloSpring helloSpring=(HelloSpring)context.getBean(&quot;新对象多名字，随意取&quot;)&#10;helloSpring.getMsg();" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -465,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/filesystem/mainApp3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,7 +1,7 @@
 package com.springTest;
 
 /*Created by  at 2019-02-16 19:01 PM;
-Description: 学习bean 的scope属性为prototype;
+Description: 学习bean 的作用域比如scope比如，属性为prototype;
 Others:Spring版本：5.1.5.Release,java 版本1.8*/
 
 import org.springframework.context.ApplicationContext;

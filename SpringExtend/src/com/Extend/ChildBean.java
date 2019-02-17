@@ -27,6 +27,6 @@ public void getMsgThree(){
   System.out.println("这是ChildBean的getMsgThree()方法:  "+msgThree);
 }
 public void getMsgFour(){
-  System.out.println("这是ChildBean的getMsgFour()方法:  "+msgThree);
+  System.out.println("这是ChildBean的getMsgFour()方法:  "+msgFour);
 }
 }

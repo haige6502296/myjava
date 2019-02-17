@@ -2,8 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id="BeanIdOrName" class="com.SpringProcessor.BeanClass" init-method="initBean" destroy-method="destoryBean">
-    <property name="msg"  value="Good Morning!"></property>
+<bean name="a" class="com.springTest.One" scope="prototype">
+    <property name="message" value="this is another statement from the Spring.xml"></property>
 </bean>
-    <bean class="com.SpringProcessor.Processor"><!--new 一个新对象执行相关的方法--></bean>
+
 </beans>

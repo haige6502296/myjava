@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="bean" class="com.Extend.BeanClass" >
+    <property name="msgOne" value="1--我是BeanClass的第一条信息.">
+    </property>
+    <property name="msgTwo" value="2--我是BeanClass的第二条信息.">
+    </property>
+</bean>
+    <!--继承的bean-->
+    <bean id="childBean" class="com.Extend.ChildBean" parent="bean">
+        <property name="msgOne" value="1--我是ChildBean的第一条信息">
+        </property>
+        <property name="msgThree" value="3--我是ChildBean的第三条信息">
+        </property>
+    </bean>
+</beans>

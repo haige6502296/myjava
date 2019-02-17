@@ -11,7 +11,7 @@ public class BeanClass {
   public  void  initBean(){
     System.out.println("Attention: the bean is going to initialize!");
   }
-  public  void  desdroyBean(){
+  public  void  destroyBean(){
     System.out.println("The time  to destory the bean is coming!");
   }
 }

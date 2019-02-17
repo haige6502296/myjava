@@ -4,6 +4,7 @@ public class ChildBean {
 private String msgOne;
 private String msgTwo;
 private String msgThree;
+private String msgFour;
 public void setMsgOne(String msg){
   this.msgOne=msg;
 }
@@ -13,13 +14,19 @@ public void setMsgTwo(String messageTwo){
 public void setMsgThree(String msgThree){
   this.msgThree=msgThree;
 }
+public void setMsgFour(String msgFour){
+  this.msgFour=msgFour;
+}
 public void getMsgOne(){
-  System.out.println("这是ChildBean的getMessageOne()方法:  "+msgOne);
+  System.out.println("这是ChildBean的getMsgOne()方法:  "+msgOne);
 }
 public void getMsgTwo(){
-  System.out.println("这是ChildBean的getMessageTwo()方法:  "+msgTwo);
+  System.out.println("这是ChildBean的getMsgTwo()方法:  "+msgTwo);
 }
 public void getMsgThree(){
-  System.out.println("这是ChildBean的getMessageThree()方法:  "+msgThree);
+  System.out.println("这是ChildBean的getMsgThree()方法:  "+msgThree);
+}
+public void getMsgFour(){
+  System.out.println("这是ChildBean的getMsgThree()方法:  "+msgThree);
 }
 }

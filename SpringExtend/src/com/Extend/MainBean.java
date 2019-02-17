@@ -7,6 +7,7 @@ public class MainBean {
 /**
 Created by amau at 2019-02-17 22:17 PM;
 Description: Spring Bean的继承;
+ 注意继承的方法名称必须和父类的一致,可以参数不同
 */
 public static void main(String[] args) {
   ApplicationContext ac=new ClassPathXmlApplicationContext("spring-config.xml");
@@ -18,6 +19,7 @@ public static void main(String[] args) {
           childBean.getMsgOne();
           childBean.getMsgTwo();
           childBean.getMsgThree();
+          childBean.getMsgFour();
 
 }
 }

@@ -14,5 +14,7 @@
         </property>
         <property name="msgThree" value="3--我是ChildBean的第三条信息">
         </property>
+        <property name="msgFour" value="4--我是ChildBean的第四条信息">
+        </property>
     </bean>
 </beans>

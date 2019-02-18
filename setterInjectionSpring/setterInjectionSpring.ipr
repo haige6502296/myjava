@@ -60,10 +60,13 @@
           <State>
             <id>Probable bugsGradle</id>
           </State>
+          <State>
+            <id>XML</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>CheckTagEmptyBody</id>
           </State>
         </selected-state>
       </profile-state>
@@ -71,10 +74,10 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring2.iml" filepath="$PROJECT_DIR$/Spring2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/setterInjectionSpring.iml" filepath="$PROJECT_DIR$/setterInjectionSpring.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PublishConfigData" autoUpload="Always" createEmptyFolders="true">

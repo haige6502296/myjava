@@ -12,12 +12,13 @@ public class Question {
   }
 
   public Question(int id, String name, Map<String, String> answers) {
+    super();
     this.id = id;
     this.name = name;
     this.answers = answers;
   }
 
-   void dipInfo() {
+   void dispInfo() {
     System.out.println("Question is: " + id + " ," + name);
     System.out.println("The answers are...");
 /*     Set<Entry<String, String>> set=answers.entrySet();

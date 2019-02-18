@@ -7,6 +7,6 @@ public class MainApp {
   public static void main(String[] args) {
     ApplicationContext ac=new ClassPathXmlApplicationContext("spring-config.xml");
     Question question=(Question) ac.getBean("q");
-    question.dipInfo();
+    question.dispInfo();
   }
 }

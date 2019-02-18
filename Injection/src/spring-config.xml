@@ -9,7 +9,7 @@
     <constructor-arg value="张三疯">
     </constructor-arg>
     <constructor-arg>
-        <ref bean="a1" ></ref>
+        <ref bean="a1" />
     </constructor-arg>
 </bean>
     <bean id="a1" class="com.lct.Address" >

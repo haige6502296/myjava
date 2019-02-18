@@ -7,8 +7,11 @@ public class Question {
 private int id;
 private String name;
 private List<Answers> answers;
-//public  Question(){}
+
+  public Question() {
+  }
 public  Question(int id,String name,List<Answers>answers){
+  super();
   this.id=id;
   this.name=name;
   this.answers=answers;

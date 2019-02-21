@@ -14,9 +14,9 @@ public class TrackBusiness {
   @Around("abcPointcut()")
   public Object myadvice(ProceedingJoinPoint pjp) throws Throwable{
     {
-      System.out.println("Additional Concern Before calling actual method");
+      System.out.println("实际业务方法调用前输出额外的关注点");
       Object obj=pjp.proceed();
-      System.out.println("Additional Concern After calling actual method");
+      System.out.println("实际业务方法调用后输出额外的关注点");
       return obj;
     }
   }

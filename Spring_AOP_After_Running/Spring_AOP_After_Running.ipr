@@ -71,7 +71,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring_AOP_After_Running.iml" filepath="$PROJECT_DIR$/Spring_AOP_After_Running.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_AOP_After_Returning.iml" filepath="$PROJECT_DIR$/Spring_AOP_After_Returning.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -71,7 +71,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring_AOP_After.iml" filepath="$PROJECT_DIR$/Spring_AOP_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_AOP_After_Running.iml" filepath="$PROJECT_DIR$/Spring_AOP_After_Running.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -110,13 +110,15 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="lib">
+    <library name="aspectjrt">
       <CLASSES>
-        <root url="file://D:/Program Files/AspectJ/lib" />
+        <root url="jar://D:/Program Files/AspectJ/lib/aspectjrt.jar!/" />
+        <root url="jar://D:/Program Files/AspectJ/lib/aspectjtools.jar!/" />
+        <root url="jar://D:/Program Files/AspectJ/lib/aspectjweaver.jar!/" />
+        <root url="jar://D:/Program Files/AspectJ/lib/org.aspectj.matcher.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://D:/Program Files/AspectJ/lib" recursive="false" />
     </library>
   </component>
 </project>

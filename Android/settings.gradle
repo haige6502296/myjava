@@ -1,1 +1,0 @@
-include ':featureTest', ':app', ':base', ':instantapp'

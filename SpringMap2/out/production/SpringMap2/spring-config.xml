@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="answer1" class="com.lct.Answers">
+        <constructor-arg value="1" ></constructor-arg>
+        <constructor-arg value="幸福就是有肉吃有酒喝有兄弟们在一起!"></constructor-arg>
+        <constructor-arg value="02/18/2019"></constructor-arg>
+    </bean>
+    <bean id="answer2" class="com.lct.Answers">
+        <constructor-arg value="2" type="int"></constructor-arg>
+        <constructor-arg value="幸福就是我的尾巴,怎么都抓不到!"></constructor-arg>
+        <constructor-arg value="02/18/2019"></constructor-arg>
+    </bean>
+    <bean id="user1" class="com.lct.Users">
+        <constructor-arg value="1" type="int"></constructor-arg>
+        <constructor-arg value="梁山宋江"></constructor-arg>
+        <constructor-arg value="songjiang@qq.com"></constructor-arg>
+    </bean>
+    <bean id="user2" class="com.lct.Users">
+        <constructor-arg value="2" type="int"></constructor-arg>
+        <constructor-arg value="小猫咪"></constructor-arg>
+        <constructor-arg value="kitty@qq.com"></constructor-arg>
+    </bean>
+    <bean id="q" class="com.lct.Question">
+        <constructor-arg value="1" type="int"></constructor-arg>
+        <constructor-arg value="幸福是什么?"></constructor-arg>
+        <constructor-arg >
+            <map>
+                <entry key-ref="answer1" value-ref="user1"></entry>
+                <entry key-ref="answer2" value-ref="user2"></entry>
+            </map>
+        </constructor-arg>
+    </bean>
+</beans>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <aop:aspectj-autoproxy/>
+    <bean id="b" class="net.lct.Business"/><!--创建一个Business的bean,id是由主类的工厂方法确定的-->
+    <bean id="trackclass" class="net.lct.TrackBusiness"/><!--创建一个trackclass的bean名称是由aop:aspect创建的-->
+    <aop:config>
+        <aop:aspect id="mytrack" ref="trackclass"><!--id随意取的,ref是为上面的beanid取名-->
+            <!--@Before-->
+            <!--理解这个执行过程-->
+            <aop:before method="myAdvice" pointcut-ref="p"/>
+            <aop:pointcut id="p" expression="execution(* net.lct.Business.*(..))"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

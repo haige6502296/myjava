@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+<aop:aspectj-autoproxy/>
+    <bean id="business" class="com.lct.Business">
+</bean>
+    <bean id="trackclass" class="com.lct.TrackClass"></bean>
+    <aop:config>
+<aop:aspect id="myaspect" ref="trackclass">
+    <aop:pointcut id="pointcut" expression="execution(* Object.*(..))"></aop:pointcut>
+    <aop:around method="businessAdvice" pointcut-ref="pointcut"></aop:around>
+    
+</aop:aspect>
+
+
+
+
+    </aop:config>
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:aspectj-autoproxy/>
+    <bean id="operation" class="com.lct.Operation"/>
+    <bean id="track" class="com.lct.TrackClass"/>
+
+    <aop:config>
+        <aop:aspect id="myadvice" ref="track">
+            <!--AfterThrowing-->
+            <aop:pointcut id="pointcut" expression="execution(* com.lct.Operation.*(..))"/>
+
+            <!--别忘记了这个trackAdvice()方法的异常参数加入-->
+            <aop:after-throwing method="trackAdvice" pointcut-ref="pointcut" throwing="throwable"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

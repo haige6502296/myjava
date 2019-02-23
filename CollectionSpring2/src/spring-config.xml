@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="an1" class="com.lct.Answers">
+        <constructor-arg value="1"></constructor-arg>
+        <constructor-arg value="Java is a program language!"></constructor-arg>
+        <constructor-arg value="John"></constructor-arg>
+    </bean>
+    <bean id="an2" class="com.lct.Answers">
+        <constructor-arg value="2"></constructor-arg>
+        <constructor-arg value="Java is a platform!"></constructor-arg>
+        <constructor-arg value="Ravi"></constructor-arg>
+    </bean>
+
+
+    <bean id="q" class="com.lct.Question">
+        <constructor-arg value="111"></constructor-arg>
+        <constructor-arg value="What's java?"></constructor-arg>
+        <constructor-arg>
+            <list>
+                <ref bean="an1"/>
+                <ref bean="an2"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

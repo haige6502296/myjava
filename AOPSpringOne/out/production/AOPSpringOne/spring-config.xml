@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="a" class="com.lct.A">
+    </bean>
+    <bean id="b" class="com.lct.B"></bean>
+    <bean id="beforeAdvisor" class="com.lct.BeforeAdvisor">
+    </bean>
+
+    <bean id="proxyB" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="b"></property>
+        <property name="interceptorNames">
+            <list>
+                <value>beforeAdvisor</value>
+            </list>
+        </property>
+
+    </bean>
+
+    <bean id="proxyA" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="a"></property>
+
+        <property name="interceptorNames">
+            <list>
+                <value>beforeAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>

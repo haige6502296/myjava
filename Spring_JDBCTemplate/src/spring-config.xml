@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--第三步:产生一个datasource bean,包含driverClassName,url,username,password这四个属性-->
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+
+        <!--设置useSSL加"?"然后再添加useSSL=false或者true,但是添加characterEncoding=utf8咋添加呢-->
+        <property name="url" value="jdbc:mysql://localhost:3306/mydb?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="catv.com"/>
+    </bean>
+
+    <!--第二步:通过传递的对象参数JdbcTemplate类生成一个该类的bean,引出该类的dataSource属性-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+
+<!--第一步:生成一个com.lct.EmployeeDao类的bean,通过该类的声明的对象属性引出一个id为jdbcTemplate的bean-->
+    <bean id="edao" class="com.lct.EmployeeDao">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+</beans>
